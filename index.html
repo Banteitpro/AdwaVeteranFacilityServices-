@@ -1009,21 +1009,13 @@ h1:focus,h1:focus-visible{outline:none}
   <div class="res-section home-steps"><div class="wrap"><div class="res-section-head res-section-head-center"><p class="res-overline">Simple from the start</p><h2>How your cleaning request works</h2></div><div class="res-steps-grid"><article><span>01</span><h3>Tell us what you need</h3><p>Share your home size, type of clean, and any notes.</p></article><article><span>02</span><h3>Confirm the details</h3><p>We'll follow up about availability, scope, and your final quote.</p></article><article><span>03</span><h3>Enjoy a fresher space</h3><p>Cleaning is scheduled once you've approved the details.</p></article></div></div></div>
 
   <div class="res-section res-quote-section" id="request"><div class="wrap res-quote-layout">
-    <div class="res-quote-aside"><p class="res-overline">Get started</p><h2>Tell us about your home.</h2><p>Complete this short form and we'll follow up about your cleaning request. A quote request is not a confirmed booking.</p><div class="quote-support"><span aria-hidden="true">☎</span><div><strong>Prefer to speak with someone?</strong><a href="tel:+18889839843">(888) 983-9843</a></div></div><div class="quote-support"><span aria-hidden="true">✉</span><div><strong>Or email us directly</strong><a href="mailto:info@adwaveteranfacilityservices.com">info@adwaveteranfacilityservices.com</a></div></div></div>
-    <div class="res-form-card"><form id="res-lead-form" novalidate><div class="res-form-heading"><h3>Request your free cleaning quote</h3><p>Fields marked * are required.</p></div>
-      <div class="res-form-grid"><label>Full name *<input class="inp" name="name" autocomplete="name" required minlength="2" placeholder="Your name"></label><label>Email address *<input class="inp" name="email" autocomplete="email" required type="email" placeholder="you@example.com"></label><label>Mobile phone number *<input class="inp" name="phone" autocomplete="tel" required type="tel" minlength="10" placeholder="(555) 555-5555"></label><label>ZIP code *<input class="inp" name="zip" autocomplete="postal-code" required pattern="[0-9]{5}" title="Enter a five-digit ZIP code" inputmode="numeric" placeholder="19111"></label>
-        <label>Home size *<select class="inp" name="homeSize" id="res-home-size" required><option value="">Select home size</option><option>1 Bedroom / 1 Bathroom</option><option>2 Bedrooms / 1 Bathroom</option><option>3 Bedrooms / 2 Bathrooms</option><option>4 Bedrooms / 3 Bathrooms</option><option>Other / Please discuss</option></select></label>
-        <label>Cleaning type *<select class="inp" name="cleaningType" id="res-cleaning-type" required><option value="">Select a service</option><option>Standard cleaning</option><option>Deep cleaning</option><option>Move-in / move-out</option><option>Recurring cleaning</option></select></label>
-      </div>
-      <div class="res-addr-grid res-form-grid-addr"><label>Street address *<input class="inp" name="street" autocomplete="address-line1" required minlength="4" placeholder="123 Main St"></label><label>City *<input class="inp" name="city" autocomplete="address-level2" required minlength="2" placeholder="Philadelphia"></label><label>State *<select class="inp" name="state" autocomplete="address-level1" required><option value="">Select</option><option value="PA">PA</option><option value="NJ">NJ</option><option value="Other">Other</option></select></label></div>
-      <label class="res-label-full">Preferred date (optional)<input class="inp" name="preferredDate" type="date"></label>
-      <label class="res-label-full">Anything else we should know?<textarea class="inp" name="notes" rows="3" placeholder="Tell us about pets, priorities, access, extra tasks, or scheduling needs."></textarea></label>
-      <input name="website" type="text" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
-      <label class="sms-check res-sms"><input type="checkbox" name="smsConsent" value="Yes"><span>I agree to receive text messages from ADWA Veteran Facility Services LLC regarding quote requests, appointments, service updates, and customer support. Message frequency varies. Message and data rates may apply. Reply HELP for help or STOP to opt out. Consent is not a condition of purchase. View our <a href="/terms-and-conditions" target="_blank" rel="noopener">Terms and Conditions</a> and <a href="/privacy-policy" target="_blank" rel="noopener">Privacy Policy</a>.</span></label>
-      <input type="hidden" name="priceEstimate" id="res-price-estimate" value="">
-      <button class="action action-primary res-submit" type="submit">Send my quote request <span aria-hidden="true">↗</span></button>
-      <p class="res-form-status" id="res-form-status" aria-live="polite" role="status"></p><p class="res-form-subnote">We won't charge you or confirm an appointment just for requesting a quote.</p>
-    </form></div>
+    <div class="res-quote-aside"><p class="res-overline">Get started</p><h2>Tell us about your home.</h2><p>Tell us what you need and we'll follow up with a quote and available dates.</p><div class="quote-support"><span aria-hidden="true">☎</span><div><strong>Prefer to speak with someone?</strong><a href="tel:+18889839843">(888) 983-9843</a></div></div><div class="quote-support"><span aria-hidden="true">✉</span><div><strong>Or email us directly</strong><a href="mailto:info@adwaveteranfacilityservices.com">info@adwaveteranfacilityservices.com</a></div></div></div>
+    <div class="res-form-card">
+      <div class="res-form-heading"><h3>Request your free cleaning quote</h3><p>Use our Jobber form to share your address, home size, cleaning needs, and preferred date.</p></div>
+      <p id="res-quote-estimate" class="res-form-subnote" aria-live="polite" hidden></p>
+      <a class="action action-primary res-submit" href="https://clienthub.getjobber.com/hubs/9ba4e17d-fb73-4bb1-b4f9-4a1784d99495/public/requests/5394506/new">Open the quote request form</a>
+      <p class="res-form-subnote">If you used the calculator, include your selections in the request. ADWA will confirm pricing and availability before scheduling.</p>
+    </div>
   </div></div>
 
   <div class="res-section residential-areas"><div class="wrap">
@@ -1032,7 +1024,7 @@ h1:focus,h1:focus-visible{outline:none}
 <li>Philadelphia</li><li>Montgomery County</li><li>Delaware County</li><li>Chester County</li><li>Bucks County</li><li>South Jersey</li>
 </ul><p class="res-area-note">Not sure whether we cover your neighborhood? <a href="#/residential#request">Send us a quick request</a> or call <a href="tel:+18889839843">(888) 983-9843</a>.</p>
 </div></div>
-<div class="res-section res-faq"><div class="wrap"><div class="res-section-head res-section-head-center"><p class="res-overline">Good to know</p><h2>Common cleaning questions</h2></div><div class="faq-stack"><details><summary>What's included in a standard cleaning?</summary><p>Standard cleaning focuses on routine household areas such as kitchens, bathrooms, bedrooms, and living spaces. We'll confirm a specific task list for your home before the appointment.</p></details><details><summary>Are the prices on this page final?</summary><p>These are the published rates for the listed home sizes and standard maintenance cleaning. We'll confirm the final scope and price before service, including any extras you request.</p></details><details><summary>Can I request weekly or biweekly cleaning?</summary><p>Yes. You can request recurring visits in the form above. We'll discuss frequency, pricing, and available appointments with you.</p></details><details><summary>Can I book and pay online?</summary><p>Our online booking option will let you view live availability and check out securely once the booking provider is activated. Until then, please request a free quote and we'll contact you about scheduling.</p></details></div></div></div>
+<div class="res-section res-faq"><div class="wrap"><div class="res-section-head res-section-head-center"><p class="res-overline">Good to know</p><h2>Common cleaning questions</h2></div><div class="faq-stack"><details><summary>What's included in a standard cleaning?</summary><p>Standard cleaning focuses on routine household areas such as kitchens, bathrooms, bedrooms, and living spaces. We'll confirm a specific task list for your home before the appointment.</p></details><details><summary>Are the prices on this page final?</summary><p>These are the published rates for the listed home sizes and standard maintenance cleaning. We'll confirm the final scope and price before service, including any extras you request.</p></details><details><summary>Can I request weekly or biweekly cleaning?</summary><p>Yes. You can request recurring visits through our quote form. We'll discuss frequency, pricing, and available appointments with you.</p></details><details><summary>Can I book and pay online?</summary><p>Our online booking option will let you view live availability and check out securely once the booking provider is activated. Until then, please request a free quote and we'll contact you about scheduling.</p></details></div></div></div>
 </section>
 
 <!-- ══════════════ RESIDENTIAL BOOKING / SECURE PROVIDER CHECKOUT ══════════════ -->
@@ -2424,77 +2416,35 @@ document.addEventListener("keydown", e => { if (e.key === "Escape") closeMenu();
 
 route();
 
-/* ADWA residential estimate and quote form. Published numbers are unchanged. */
+/* Keep the informational estimate available when customers open the Jobber form. */
 (function initResidentialExperience(){
-  const dollars = n => "$" + n.toLocaleString("en-US", {maximumFractionDigits:0});
   const rateInputs = $$('input[name="homeRate"]');
   const extras = $$('input[name="priceExtra"]');
-  const form = $("#res-lead-form");
-  const status = $("#res-form-status");
-  const sizeSelect = $("#res-home-size");
-  const typeSelect = $("#res-cleaning-type");
+  const quoteEstimate = $("#res-quote-estimate");
+  const dollars = new Intl.NumberFormat("en-US", {
+    style: "currency", currency: "USD", maximumFractionDigits: 0
+  });
   function recalc(){
-    const chosen = rateInputs.find(r => r.checked);
+    const chosen = rateInputs.find(rate => rate.checked);
     if (!chosen) return;
-    const selected = extras.filter(e => e.checked);
-    const total = Number(chosen.value) + selected.reduce((sum,e) => sum + Number(e.value),0);
-    $$(".res-price-choice").forEach(l => l.classList.toggle("is-selected", l.contains(chosen)));
+    const selected = extras.filter(extra => extra.checked);
+    const total = Number(chosen.value) + selected.reduce((sum, extra) => sum + Number(extra.value), 0);
+    const details = selected.length ? selected.map(extra => extra.dataset.label).join(" · ") : "Standard cleaning, no add-ons";
+    $$(".res-price-choice").forEach(label => label.classList.toggle("is-selected", label.contains(chosen)));
     $("#estimate-home").textContent = chosen.dataset.home;
-    $("#estimate-total").textContent = dollars(total);
-    $("#estimate-extras").textContent = selected.length ? selected.map(e => e.dataset.label).join(" · ") : "Standard cleaning, no add-ons";
-    $("#res-price-estimate").value = chosen.dataset.home + " — " + dollars(total) + (selected.length ? " | Extras: " + selected.map(e => e.dataset.label).join(", ") : "");
-    return chosen.dataset.home;
+    $("#estimate-total").textContent = dollars.format(total);
+    $("#estimate-extras").textContent = details;
+    quoteEstimate.textContent = "Calculator estimate: " + chosen.dataset.home + " · " + dollars.format(total) + " · " + details;
   }
-  [...rateInputs,...extras].forEach(e => e.addEventListener("change",recalc));
+  [...rateInputs, ...extras].forEach(input => input.addEventListener("change", () => {
+    recalc();
+    quoteEstimate.hidden = false;
+  }));
+  $("#estimate-cta").addEventListener("click", () => {
+    recalc();
+    quoteEstimate.hidden = false;
+  });
   recalc();
-  $("#estimate-cta").addEventListener("click",()=>{
-    const current = recalc();
-    if (current) sizeSelect.value = current;
-    if (extras.some(e => e.checked && e.dataset.label === "Move-in / move-out detail")) typeSelect.value = "Move-in / move-out";
-    else if (extras.some(e => e.checked && e.dataset.label === "Deep cleaning upgrade")) typeSelect.value = "Deep cleaning";
-    else typeSelect.value = "Standard cleaning";
-  });
-  // Reuse the site's existing Formspree endpoint; do not imply successful
-  // delivery unless the endpoint actually acknowledges the submission.
-  form.addEventListener("submit", async event=>{
-    event.preventDefault();
-    status.classList.remove("error");
-    status.textContent = "";
-    if (!form.checkValidity()) { form.reportValidity(); return; }
-    if (form.elements.website.value.trim()) { status.textContent = "Thank you."; return; }
-    const btn = form.querySelector('button[type="submit"]');
-    const data = Object.fromEntries(new FormData(form).entries());
-    data.form = "residential-cleaning-quote";
-    data.smsConsent = form.elements.smsConsent.checked ? "Yes" : "No";
-    data.smsConsentTimestamp = new Date().toISOString();
-    data.smsConsentForm = "Residential cleaning quote form";
-    data.smsConsentPage = location.href;
-    data.estimateDetails = $("#res-price-estimate").value;
-    btn.disabled = true;
-    btn.firstChild.textContent = "Sending request… ";
-    try {
-      if (FORM_ENDPOINT) {
-        const response = await fetch(FORM_ENDPOINT,{
-          method:"POST",headers:{"Content-Type":"application/json","Accept":"application/json"},body:JSON.stringify(data)
-        });
-        if (!response.ok) throw new Error("Submission was not accepted");
-        status.textContent = "Thank you! Your cleaning quote request was submitted. We'll follow up to discuss the details and availability.";
-        form.reset();
-        recalc();
-      } else {
-        const subject = "Residential cleaning quote request — " + data.name;
-        const body = ["Name: "+data.name,"Email: "+data.email,"Phone: "+data.phone,"Address: "+data.street+", "+data.city+", "+data.state+" "+data.zip,"Home: "+data.homeSize,"Service: "+data.cleaningType,"Preferred date: "+(data.preferredDate || "Not specified"),"Estimate: "+data.estimateDetails,"Notes: "+(data.notes||""),"SMS consent: "+data.smsConsent].join("\n");
-        location.href = "mailto:info@adwaveteranfacilityservices.com?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
-        status.textContent = "Your email app should open with the request ready. Please send the email to complete your inquiry.";
-      }
-    } catch(error) {
-      status.classList.add("error");
-      status.innerHTML = 'The form could not be delivered right now. Please <a href="mailto:info@adwaveteranfacilityservices.com">email us</a> or call <a href="tel:+18889839843">(888) 983-9843</a> instead.';
-    } finally {
-      btn.disabled = false;
-      btn.firstChild.textContent = "Send my quote request ";
-    }
-  });
 })();
 
 </script>
